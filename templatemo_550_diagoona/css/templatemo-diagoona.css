@@ -338,3 +338,11 @@ textarea {
     .tm-service-img { margin-right: 0; }
     .tm-service-img-r { margin-left: 0; }
 }
+
+
+
+.tm-service-img,
+.tm-service-img-r {
+    width: 180px;   /* ou qualquer tamanho menor que o atual */
+    height: auto;   /* mantém a proporção da imagem */
+}
